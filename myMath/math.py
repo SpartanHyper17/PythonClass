@@ -18,9 +18,17 @@ class Mathematic:
     def Add(self, x, y):
         result = self.arithmatic.Addition(x, y)
         print('Sum of two numbers: ' + str(result))
+        
+    def Subtract(self, x, y):
+        result = self.arithmatic.Subtraction(x,y)
+        print('Difference of two numbers: ' + str(result))
            
     def Multiply(self, x, y):
         result = self.geometric.Multiplication(x, y)
-        print('Multiplication of two numbers: ' + str(result))
+        print('Product of two numbers: ' + str(result))
+        
+    def Divide(self, x, y):
+        result = self.geomatric.Division(x,y)
+        print('Dividend of two numbers: ' + str(result))
 
    
