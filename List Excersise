@@ -1,0 +1,11 @@
+lis = []
+num = 10
+while num > 0:
+    a = input("Please enter a number: ")
+    lis.append(a)
+    num = num - 1
+print(lis)
+for b in lis:
+    print(b)
+c = input("Choose which item from the list to display: ")
+print("The number you chose was " + str(lis[c-1]) + ".")
